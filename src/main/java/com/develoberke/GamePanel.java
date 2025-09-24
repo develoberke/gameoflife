@@ -35,11 +35,6 @@ public class GamePanel extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {
-        setPreferredSize(new Dimension(
-                gameLogic.getBoardWidth() * cellSize,
-                gameLogic.getBoardHeight() * cellSize
-        ));
-
         super.paintComponent(g);
 
         for (int i = 0; i < gameLogic.getBoardHeight(); i++) {

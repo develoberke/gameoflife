@@ -5,8 +5,8 @@ import java.awt.*;
 
 public class GameUI {
     private static final double REFRESH_SPEED = 0.5;
-    private static final int WIDTH = 1920;
-    private static final int HEIGHT = 1080;
+    private static final int WIDTH = 1600;
+    private static final int HEIGHT = 900;
     private static final int CELL_SIZE = 20;
     private static final int START_BUTTON_SIZE = 100;
 
@@ -23,8 +23,6 @@ public class GameUI {
         frame.add(toggleButton, BorderLayout.SOUTH);
 
         frame.pack();
-        frame.setSize(WIDTH, HEIGHT);
-        frame.setLayout(null);
         return frame;
     }
 
