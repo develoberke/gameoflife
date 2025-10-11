@@ -1,4 +1,4 @@
-# Game of Life
+# Conway's Game of Life
 
 > Just a little project because I was bored
 
